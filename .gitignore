@@ -1,0 +1,36 @@
+# Generated files and local state
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.apk
+*.aab
+*.idsig
+build/
+runtime/
+android/.godot/
+android/*.import
+# Secrets, machine-specific configuration and keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.jks
+*.p12
+*.pfx
+credentials*
+secrets*
+*token*
+# Server snapshots and temporary migration scripts
+deploy/nginx-before-*.conf
+deploy/*_patch.py
+deploy/apply_beta2.py
+deploy/add_start_city.py
+deploy/release_prep.py
+.DS_Store

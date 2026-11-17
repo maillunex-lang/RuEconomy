@@ -1,0 +1,42 @@
+{
+  "project": "RussiaEconomicMMO",
+  "stages": [
+    "M1 city marketplace and demand",
+    "M2 100 deterministic AI companies",
+    "M3 30-day offline integration"
+  ],
+  "status": "PASS_LOCAL_PREPRODUCTION",
+  "tests_passed": 38,
+  "test_command": "python3 -m unittest discover -s tests -q",
+  "simulation_command": "python3 simulate.py --days 30 --seed 42",
+  "simulated_days": 30,
+  "simulated_cities": 10,
+  "ai_companies": 100,
+  "ai_roles": {
+    "producer": 33,
+    "retailer": 33,
+    "trader": 34
+  },
+  "production_batches": 252,
+  "trade_events": 709,
+  "household_purchases": 235,
+  "money_conserved": true,
+  "initial_money_kopecks": 500000000,
+  "final_money_kopecks": 500000000,
+  "source_catalog_sha256": {
+    "PRODUCTION-CATALOG-1.0-GOODS.json": "f3e416c18349a96a95623cbeb32598c3b78c263f9cb806759dd7428bffd89150",
+    "PRODUCTION-CATALOG-1.0-RECIPES.json": "8f5d38201625f02bcb5956782fb7ce63f6b3840aff116b70df36c83dff8c850b",
+    "PRODUCTION-CATALOG-1.0-EQUIPMENT.json": "fac997010c3e1265e85bba5a51f9261655270d5b826e7bfd56c104d0e3ea01ac"
+  },
+  "network_server_started": false,
+  "android_apk_built": false,
+  "godot_started": false,
+  "not_tested": [
+    "full 300-goods city economy",
+    "AI learning and bankruptcy",
+    "regional logistics",
+    "multi-client server concurrent execution",
+    "long-run macro stability"
+  ],
+  "stage_level": "proof-of-mechanics, not release-ready MMO"
+}

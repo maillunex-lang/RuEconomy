@@ -1,0 +1,25 @@
+[Unit]
+Description=RussiaEconomicMMO isolated beta API
+After=network.target
+
+[Service]
+Type=simple
+User=gamedev
+Group=gamedev
+WorkingDirectory=/home/gamedev/projects/RussiaEconomicMMO
+Environment=PYTHONUNBUFFERED=1
+Environment=RUSSIA_MMO_BIND=127.0.0.1
+Environment=RUSSIA_MMO_PORT=18783
+ExecStart=/usr/bin/python3 /home/gamedev/projects/RussiaEconomicMMO/server.py
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/home/gamedev/projects/RussiaEconomicMMO/runtime
+ProtectHome=false
+MemoryMax=256M
+TasksMax=32
+
+[Install]
+WantedBy=multi-user.target

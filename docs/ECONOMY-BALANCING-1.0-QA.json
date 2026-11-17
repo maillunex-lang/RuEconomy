@@ -1,0 +1,25 @@
+{
+  "status": "STRUCTURAL_PASS_ONLY",
+  "goods": 300,
+  "recipes_per_scenario": 450,
+  "scenarios": [
+    "baseline",
+    "supply_shock",
+    "productivity"
+  ],
+  "no_zero_costs": true,
+  "shock_never_reduces_cost": true,
+  "monetary_math": "integer kopecks",
+  "realistic_costs_calibrated": false,
+  "ten_city_simulation_performed": false,
+  "missing": [
+    "sector-specific BOM and yield",
+    "CAPEX and amortization",
+    "regional wages",
+    "household demand distributions",
+    "import quotas",
+    "retail elasticity",
+    "production capacities",
+    "tax policy"
+  ]
+}

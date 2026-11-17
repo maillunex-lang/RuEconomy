@@ -1,0 +1,50 @@
+{
+  "catalog_version": "1.0-draft-2",
+  "catalog_total": 300,
+  "recipes_total": 450,
+  "enterprise_types": 45,
+  "category_quotas": {
+    "AGRI": 30,
+    "AUTO": 35,
+    "BOOK": 15,
+    "BUILD": 15,
+    "OTHER": 10,
+    "ELEC": 35,
+    "FOOD": 85,
+    "HOME": 20,
+    "RAW": 35,
+    "TEXT": 20
+  },
+  "manufactured_goods": 233,
+  "documented_sourced_goods": 67,
+  "all_links_exist": true,
+  "recipe_dag_cycle_free": true,
+  "all_input_units_positive_integers": true,
+  "aggregate_mass_nonnegative": true,
+  "aggregate_mass_conservation_including_coproducts": true,
+  "all_goods_have_source_or_recipe": true,
+  "unused_intermediate_goods": [],
+  "technical_water_used": true,
+  "water_supply_enterprise": "ENT-045",
+  "legacy_old_unit_removed": true,
+  "packaging_pallet_reusable_asset_not_consumable": true,
+  "physically_validated": false,
+  "economically_calibrated": false,
+  "ready_for_production_runtime": false,
+  "sku_migrations": {
+    "OTHER-009": "BUILD-013",
+    "BUILD-013": "OTHER-009",
+    "OTHER-010": "BUILD-014",
+    "BUILD-014": "OTHER-010"
+  },
+  "known_limitations": [
+    "Rye flour replaces spaghetti SKU FOOD-035; user approval required for irreversible SKU renaming in an existing game",
+    "ENT-025 is split into licensed facilities under one enterprise type, not three separate enterprise IDs",
+    "ENT-045 combines utilities and commercial property to retain 45 types",
+    "Dairy whey and skim milk are modeled as noncommercial co-products without SKU",
+    "Pallets are reserved as reusable logistics assets, not physically consumed",
+    "Raw sugar from beet is represented inside packaged sugar recipe, without separate sugar refinery SKU",
+    "Recipe coefficients remain hypothetical and not physically calibrated",
+    "Economy Balancing 1.0 scenarios based on old draft are stale and must be recalculated"
+  ]
+}

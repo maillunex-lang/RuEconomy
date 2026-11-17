@@ -1,0 +1,301 @@
+goods_id,name,sector,base_unit,mass_g_per_unit,source_mode,processing_tier,recipe_count,regulation
+AGRI-001,Пшеница,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-002,Рожь,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-003,Ячмень,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-004,Овёс,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-005,Кукуруза,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-006,Рис-сырец,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-007,Гречиха,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-008,Подсолнечник,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-009,Рапс,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-010,Сахарная свёкла,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-011,Картофель,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-012,Морковь,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-013,Капуста,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-014,Томаты,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-015,Огурцы,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-016,Лук,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-017,Яблоки,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-018,Клубника,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-019,Горох,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-020,Персики,Сельхозсырьё и рыба,g,1,finite_import,0,0,ordinary
+AGRI-021,Апельсины,Сельхозсырьё и рыба,g,1,finite_import,0,0,ordinary
+AGRI-022,Молоко сырое,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-023,Куриные яйца,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-024,Крупный рогатый скот,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-025,Свиньи,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-026,Куры бройлерные,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-027,Рыба пресноводная,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-028,Рыба морская,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-029,Креветки сырьевые,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AGRI-030,Мёд сырой,Сельхозсырьё и рыба,g,1,farm_or_fishery,0,0,ordinary
+AUTO-001,Седан бюджетный,Автомобили и детали,piece,1150000,manufacturing,6,2,ordinary
+AUTO-002,Седан семейный,Автомобили и детали,piece,1320000,manufacturing,6,2,ordinary
+AUTO-003,Седан премиальный,Автомобили и детали,piece,1520000,manufacturing,6,2,ordinary
+AUTO-004,Внедорожник компактный,Автомобили и детали,piece,1450000,manufacturing,6,2,ordinary
+AUTO-005,Внедорожник полноразмерный,Автомобили и детали,piece,2050000,manufacturing,6,2,ordinary
+AUTO-006,Пикап,Автомобили и детали,piece,1900000,manufacturing,6,2,ordinary
+AUTO-007,Электромобиль городской,Автомобили и детали,piece,1550000,manufacturing,6,2,ordinary
+AUTO-008,Фургон грузовой,Автомобили и детали,piece,2350000,manufacturing,6,2,ordinary
+AUTO-009,Грузовик лёгкий,Автомобили и детали,piece,4500000,manufacturing,6,2,ordinary
+AUTO-010,Грузовик тяжёлый,Автомобили и детали,piece,9000000,manufacturing,6,2,ordinary
+AUTO-011,Автобус городской,Автомобили и детали,piece,12000000,manufacturing,6,2,ordinary
+AUTO-012,Мотоцикл дорожный,Автомобили и детали,piece,230000,manufacturing,6,2,ordinary
+AUTO-013,Трактор сельскохозяйственный,Автомобили и детали,piece,4200000,manufacturing,6,2,ordinary
+AUTO-014,Двигатель бензиновый,Автомобили и детали,piece,190000,manufacturing,4,2,ordinary
+AUTO-015,Двигатель дизельный,Автомобили и детали,piece,285000,manufacturing,4,2,ordinary
+AUTO-016,Электродвигатель тяговый,Автомобили и детали,piece,95000,manufacturing,3,2,ordinary
+AUTO-017,Коробка передач механическая,Автомобили и детали,piece,80000,manufacturing,3,2,ordinary
+AUTO-018,Коробка передач автоматическая,Автомобили и детали,piece,105000,manufacturing,3,2,ordinary
+AUTO-019,Аккумулятор автомобильный,Автомобили и детали,piece,20000,manufacturing,3,2,ordinary
+AUTO-020,Батарея тяговая,Автомобили и детали,piece,350000,manufacturing,3,2,ordinary
+AUTO-021,Кузов седана,Автомобили и детали,piece,720000,manufacturing,3,2,ordinary
+AUTO-022,Кузов внедорожника,Автомобили и детали,piece,1050000,manufacturing,3,2,ordinary
+AUTO-023,Шасси грузовика,Автомобили и детали,piece,1800000,manufacturing,3,2,ordinary
+AUTO-024,Автомобильная шина,Автомобили и детали,piece,10000,manufacturing,3,2,ordinary
+AUTO-025,Колесо в сборе,Автомобили и детали,piece,16000,manufacturing,4,2,ordinary
+AUTO-026,Лобовое стекло,Автомобили и детали,piece,18000,manufacturing,3,2,ordinary
+AUTO-027,Боковое стекло автомобильное,Автомобили и детали,piece,6500,manufacturing,3,2,ordinary
+AUTO-028,Сиденье автомобильное,Автомобили и детали,piece,18000,manufacturing,3,2,ordinary
+AUTO-029,Рулевой механизм,Автомобили и детали,piece,12000,manufacturing,3,2,ordinary
+AUTO-030,Тормозная система,Автомобили и детали,piece,28000,manufacturing,3,2,ordinary
+AUTO-031,Подвеска автомобильная,Автомобили и детали,piece,65000,manufacturing,3,2,ordinary
+AUTO-032,Фара автомобильная,Автомобили и детали,piece,3800,manufacturing,3,2,ordinary
+AUTO-033,Блок управления двигателем,Автомобили и детали,piece,650,manufacturing,4,2,ordinary
+AUTO-034,Проводка автомобильная,Автомобили и детали,piece,12000,manufacturing,3,2,ordinary
+AUTO-035,Катализатор автомобильный,Автомобили и детали,piece,5600,manufacturing,3,2,ordinary
+BOOK-001,Книга художественная мягкая,Книги и бумага,piece,380,manufacturing,4,2,ordinary
+BOOK-002,Книга художественная твёрдая,Книги и бумага,piece,680,manufacturing,4,2,ordinary
+BOOK-003,Учебник школьный,Книги и бумага,piece,920,manufacturing,4,2,ordinary
+BOOK-004,Книга детская,Книги и бумага,piece,420,manufacturing,4,2,ordinary
+BOOK-005,Справочник технический,Книги и бумага,piece,780,manufacturing,4,2,ordinary
+BOOK-006,Журнал,Книги и бумага,piece,220,manufacturing,4,2,ordinary
+BOOK-007,Газета,Книги и бумага,piece,160,manufacturing,4,2,ordinary
+BOOK-008,Тетрадь школьная,Книги и бумага,piece,140,manufacturing,4,2,ordinary
+BOOK-009,Блокнот,Книги и бумага,piece,250,manufacturing,4,2,ordinary
+BOOK-010,Бумага офисная А4,Книги и бумага,g,1,manufacturing,1,1,ordinary
+BOOK-011,Бумага газетная,Книги и бумага,g,1,manufacturing,1,1,ordinary
+BOOK-012,Бумага книжная,Книги и бумага,g,1,manufacturing,1,1,ordinary
+BOOK-013,Картон упаковочный,Книги и бумага,g,1,manufacturing,1,1,ordinary
+BOOK-014,Краска типографская,Книги и бумага,g,1,manufacturing,1,1,ordinary
+BOOK-015,Переплётный материал,Книги и бумага,g,1,manufacturing,2,2,ordinary
+BUILD-001,Кирпич керамический,Стройматериалы,piece,3100,manufacturing,3,2,ordinary
+BUILD-002,Кирпич силикатный,Стройматериалы,piece,3300,manufacturing,3,2,ordinary
+BUILD-003,Цемент,Стройматериалы,g,1,manufacturing,2,1,ordinary
+BUILD-004,Бетонная смесь,Стройматериалы,g,1,manufacturing,3,2,ordinary
+BUILD-005,Пескобетон,Стройматериалы,g,1,manufacturing,3,2,ordinary
+BUILD-006,Стекло листовое,Стройматериалы,g,1,manufacturing,2,1,ordinary
+BUILD-007,Стеклопакет,Стройматериалы,piece,19000,manufacturing,3,2,ordinary
+BUILD-008,Пиломатериал обрезной,Стройматериалы,g,1,manufacturing,2,1,ordinary
+BUILD-009,Брус деревянный,Стройматериалы,g,1,manufacturing,2,2,ordinary
+BUILD-010,Плита древесная,Стройматериалы,g,1,manufacturing,2,2,ordinary
+BUILD-011,Арматура стальная,Стройматериалы,g,1,manufacturing,2,1,ordinary
+BUILD-012,Балка металлическая,Стройматериалы,g,1,manufacturing,3,2,ordinary
+BUILD-013,Кровельный лист,Стройматериалы,g,1,manufacturing,3,2,ordinary
+BUILD-014,Плитка керамическая,Стройматериалы,g,1,manufacturing,3,2,ordinary
+BUILD-015,Оконный блок,Стройматериалы,piece,34000,manufacturing,4,2,ordinary
+ELEC-001,Смартфон бюджетный,Электроника,piece,240,manufacturing,5,2,ordinary
+ELEC-002,Смартфон средний,Электроника,piece,285,manufacturing,5,2,ordinary
+ELEC-003,Смартфон флагманский,Электроника,piece,335,manufacturing,5,2,ordinary
+ELEC-004,Планшет базовый,Электроника,piece,580,manufacturing,5,2,ordinary
+ELEC-005,Планшет профессиональный,Электроника,piece,750,manufacturing,5,2,ordinary
+ELEC-006,Ноутбук офисный,Электроника,piece,2250,manufacturing,5,2,ordinary
+ELEC-007,Ноутбук игровой,Электроника,piece,2800,manufacturing,5,2,ordinary
+ELEC-008,Компьютер настольный,Электроника,piece,6000,manufacturing,5,2,ordinary
+ELEC-009,Монитор 24 дюйма,Электроника,piece,5500,manufacturing,5,2,ordinary
+ELEC-010,Монитор 32 дюйма,Электроника,piece,7500,manufacturing,5,2,ordinary
+ELEC-011,Телевизор 32 дюйма,Электроника,piece,9500,manufacturing,5,2,ordinary
+ELEC-012,Телевизор 55 дюймов,Электроника,piece,15000,manufacturing,5,2,ordinary
+ELEC-013,Телевизор 75 дюймов,Электроника,piece,29000,manufacturing,5,2,ordinary
+ELEC-014,Наушники проводные,Электроника,piece,170,manufacturing,5,2,ordinary
+ELEC-015,Наушники беспроводные,Электроника,piece,260,manufacturing,5,2,ordinary
+ELEC-016,Умные часы,Электроника,piece,90,manufacturing,5,2,ordinary
+ELEC-017,Игровая приставка,Электроника,piece,3300,manufacturing,5,2,ordinary
+ELEC-018,Роутер Wi-Fi,Электроника,piece,550,manufacturing,5,2,ordinary
+ELEC-019,Системная плата,Электроника,piece,450,manufacturing,3,2,ordinary
+ELEC-020,Процессор базовый,Электроника,piece,15,manufacturing,2,2,ordinary
+ELEC-021,Процессор производительный,Электроника,piece,20,manufacturing,2,2,ordinary
+ELEC-022,Модуль оперативной памяти,Электроника,piece,30,manufacturing,2,2,ordinary
+ELEC-023,Накопитель SSD,Электроника,piece,75,manufacturing,2,2,ordinary
+ELEC-024,Дисплей смартфона,Электроника,piece,70,manufacturing,3,2,ordinary
+ELEC-025,Дисплей планшета,Электроника,piece,230,manufacturing,3,2,ordinary
+ELEC-026,Панель телевизионная,Электроника,piece,4000,manufacturing,3,2,ordinary
+ELEC-027,Аккумулятор смартфона,Электроника,piece,60,manufacturing,2,2,ordinary
+ELEC-028,Камера смартфона,Электроника,piece,18,manufacturing,3,2,ordinary
+ELEC-029,Корпус смартфона,Электроника,piece,35,manufacturing,2,2,ordinary
+ELEC-030,Корпус ноутбука,Электроника,piece,850,manufacturing,2,2,ordinary
+ELEC-031,Печатная плата,Электроника,piece,25,manufacturing,2,2,ordinary
+ELEC-032,Микросхема управления,Электроника,piece,8,manufacturing,2,2,ordinary
+ELEC-033,Блок питания,Электроника,piece,150,manufacturing,3,2,ordinary
+ELEC-034,Динамик электронный,Электроника,piece,35,manufacturing,2,2,ordinary
+ELEC-035,Кабель USB,Электроника,piece,60,manufacturing,2,2,ordinary
+FOOD-001,Молоко пастеризованное 1 л,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-002,Молоко ультрапастеризованное 1 л,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-003,Молоко обезжиренное 1 л,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-004,"Молоко клубничное 0,5 л",Продукты питания и напитки,piece,560,manufacturing,4,2,ordinary
+FOOD-005,"Молоко шоколадное 0,5 л",Продукты питания и напитки,piece,560,manufacturing,4,2,ordinary
+FOOD-006,Кефир 1 л,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-007,"Ряженка 0,5 л",Продукты питания и напитки,piece,570,manufacturing,4,2,ordinary
+FOOD-008,Йогурт натуральный 150 г,Продукты питания и напитки,piece,165,manufacturing,4,2,ordinary
+FOOD-009,Йогурт клубничный 150 г,Продукты питания и напитки,piece,165,manufacturing,4,2,ordinary
+FOOD-010,Йогурт персиковый 150 г,Продукты питания и напитки,piece,165,manufacturing,4,2,ordinary
+FOOD-011,Сметана 200 г,Продукты питания и напитки,piece,215,manufacturing,4,2,ordinary
+FOOD-012,Творог 200 г,Продукты питания и напитки,piece,220,manufacturing,4,2,ordinary
+FOOD-013,Сыр мягкий 200 г,Продукты питания и напитки,piece,220,manufacturing,4,2,ordinary
+FOOD-014,Сыр твёрдый 200 г,Продукты питания и напитки,piece,220,manufacturing,4,2,ordinary
+FOOD-015,Масло сливочное 180 г,Продукты питания и напитки,piece,200,manufacturing,4,2,ordinary
+FOOD-016,Сливки питьевые 200 мл,Продукты питания и напитки,piece,230,manufacturing,4,2,ordinary
+FOOD-017,Мороженое пломбир,Продукты питания и напитки,piece,160,manufacturing,4,2,ordinary
+FOOD-018,Мороженое шоколадное,Продукты питания и напитки,piece,160,manufacturing,4,2,ordinary
+FOOD-019,Хлеб пшеничный,Продукты питания и напитки,piece,600,manufacturing,4,2,ordinary
+FOOD-020,Хлеб ржаной,Продукты питания и напитки,piece,650,manufacturing,4,2,ordinary
+FOOD-021,Батон нарезной,Продукты питания и напитки,piece,450,manufacturing,4,2,ordinary
+FOOD-022,Булочка сдобная,Продукты питания и напитки,piece,130,manufacturing,4,2,ordinary
+FOOD-023,Круассан,Продукты питания и напитки,piece,120,manufacturing,4,2,ordinary
+FOOD-024,Печенье сахарное,Продукты питания и напитки,piece,300,manufacturing,4,2,ordinary
+FOOD-025,Печенье овсяное,Продукты питания и напитки,piece,300,manufacturing,4,2,ordinary
+FOOD-026,Пряники,Продукты питания и напитки,piece,330,manufacturing,4,2,ordinary
+FOOD-027,Вафли,Продукты питания и напитки,piece,250,manufacturing,4,2,ordinary
+FOOD-028,Торт бисквитный,Продукты питания и напитки,piece,1100,manufacturing,4,2,ordinary
+FOOD-029,Шоколад молочный,Продукты питания и напитки,piece,110,manufacturing,4,2,ordinary
+FOOD-030,Шоколад тёмный,Продукты питания и напитки,piece,110,manufacturing,4,2,ordinary
+FOOD-031,Конфеты шоколадные,Продукты питания и напитки,piece,250,manufacturing,4,2,ordinary
+FOOD-032,Карамель,Продукты питания и напитки,piece,250,manufacturing,4,2,ordinary
+FOOD-033,Мармелад,Продукты питания и напитки,piece,250,manufacturing,4,2,ordinary
+FOOD-034,Макароны,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-035,Спагетти,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-036,Крупа гречневая фасованная,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-037,Рис фасованный,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-038,Овсяные хлопья,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-039,Мука пшеничная фасованная,Продукты питания и напитки,piece,1050,manufacturing,1,1,ordinary
+FOOD-040,Сахар фасованный,Продукты питания и напитки,piece,1030,manufacturing,1,1,ordinary
+FOOD-041,Соль пищевая фасованная,Продукты питания и напитки,piece,1030,manufacturing,1,1,ordinary
+FOOD-042,Масло подсолнечное фасованное,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-043,Масло рапсовое фасованное,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-044,Колбаса варёная,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-045,Колбаса копчёная,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-046,Сосиски,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-047,Ветчина,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-048,Куриное филе охлаждённое,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-049,Говядина охлаждённая,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-050,Свинина охлаждённая,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-051,Фарш мясной,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-052,Котлеты замороженные,Продукты питания и напитки,piece,700,manufacturing,4,2,ordinary
+FOOD-053,Пельмени замороженные,Продукты питания и напитки,piece,750,manufacturing,4,2,ordinary
+FOOD-054,Рыба охлаждённая фасованная,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-055,Рыба замороженная фасованная,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-056,Филе рыбное,Продукты питания и напитки,piece,650,manufacturing,4,2,ordinary
+FOOD-057,Рыба копчёная,Продукты питания и напитки,piece,550,manufacturing,4,2,ordinary
+FOOD-058,Рыбные консервы в масле,Продукты питания и напитки,piece,310,manufacturing,4,2,ordinary
+FOOD-059,Рыбные консервы в томате,Продукты питания и напитки,piece,310,manufacturing,4,2,ordinary
+FOOD-060,Икра рыбная фасованная,Продукты питания и напитки,piece,120,manufacturing,4,2,ordinary
+FOOD-061,Креветки замороженные,Продукты питания и напитки,piece,600,manufacturing,4,2,ordinary
+FOOD-062,Овощная смесь замороженная,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-063,Горошек консервированный,Продукты питания и напитки,piece,540,manufacturing,4,2,ordinary
+FOOD-064,Кукуруза консервированная,Продукты питания и напитки,piece,540,manufacturing,4,2,ordinary
+FOOD-065,Огурцы маринованные,Продукты питания и напитки,piece,550,manufacturing,4,2,ordinary
+FOOD-066,Томаты консервированные,Продукты питания и напитки,piece,550,manufacturing,4,2,ordinary
+FOOD-067,Томатный соус,Продукты питания и напитки,piece,450,manufacturing,4,2,ordinary
+FOOD-068,Кетчуп,Продукты питания и напитки,piece,450,manufacturing,4,2,ordinary
+FOOD-069,Майонез,Продукты питания и напитки,piece,450,manufacturing,4,2,ordinary
+FOOD-070,Варенье клубничное,Продукты питания и напитки,piece,500,manufacturing,4,2,ordinary
+FOOD-071,Джем яблочный,Продукты питания и напитки,piece,500,manufacturing,4,2,ordinary
+FOOD-072,Мёд фасованный,Продукты питания и напитки,piece,550,manufacturing,4,2,ordinary
+FOOD-073,Сок яблочный 1 л,Продукты питания и напитки,piece,1070,manufacturing,4,2,ordinary
+FOOD-074,Сок апельсиновый 1 л,Продукты питания и напитки,piece,1070,manufacturing,4,2,ordinary
+FOOD-075,Сок томатный 1 л,Продукты питания и напитки,piece,1070,manufacturing,4,2,ordinary
+FOOD-076,Нектар персиковый 1 л,Продукты питания и напитки,piece,1070,manufacturing,4,2,ordinary
+FOOD-077,Вода питьевая 1 л,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-078,Вода газированная 1 л,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-079,Лимонад 1 л,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-080,Кола 1 л,Продукты питания и напитки,piece,1050,manufacturing,4,2,ordinary
+FOOD-081,Чай чёрный фасованный,Продукты питания и напитки,piece,110,finite_import,4,0,ordinary
+FOOD-082,Кофе молотый фасованный,Продукты питания и напитки,piece,270,finite_import,4,0,ordinary
+FOOD-083,"Пиво светлое 0,5 л",Продукты питания и напитки,piece,850,manufacturing,4,2,age_restricted
+FOOD-084,"Пиво тёмное 0,5 л",Продукты питания и напитки,piece,850,manufacturing,4,2,age_restricted
+FOOD-085,"Пиво безалкогольное 0,5 л",Продукты питания и напитки,piece,850,manufacturing,4,2,ordinary
+HOME-001,Холодильник компактный,Бытовая техника,piece,55000,manufacturing,5,2,ordinary
+HOME-002,Холодильник двухкамерный,Бытовая техника,piece,80000,manufacturing,5,2,ordinary
+HOME-003,Холодильник премиальный,Бытовая техника,piece,120000,manufacturing,5,2,ordinary
+HOME-004,Стиральная машина базовая,Бытовая техника,piece,65000,manufacturing,5,2,ordinary
+HOME-005,Стиральная машина улучшенная,Бытовая техника,piece,85000,manufacturing,5,2,ordinary
+HOME-006,Посудомоечная машина,Бытовая техника,piece,68000,manufacturing,5,2,ordinary
+HOME-007,Микроволновая печь,Бытовая техника,piece,12000,manufacturing,5,2,ordinary
+HOME-008,Электрическая плита,Бытовая техника,piece,45000,manufacturing,5,2,ordinary
+HOME-009,Газовая плита,Бытовая техника,piece,52000,manufacturing,5,2,ordinary
+HOME-010,Электрический чайник,Бытовая техника,piece,1400,manufacturing,5,2,ordinary
+HOME-011,Кофемашина,Бытовая техника,piece,8800,manufacturing,5,2,ordinary
+HOME-012,Пылесос проводной,Бытовая техника,piece,5500,manufacturing,5,2,ordinary
+HOME-013,Пылесос робот,Бытовая техника,piece,3200,manufacturing,5,2,ordinary
+HOME-014,Кондиционер бытовой,Бытовая техника,piece,30000,manufacturing,5,2,ordinary
+HOME-015,Водонагреватель,Бытовая техника,piece,23000,manufacturing,5,2,ordinary
+HOME-016,Морозильная камера,Бытовая техника,piece,42000,manufacturing,5,2,ordinary
+HOME-017,Компрессор холодильный,Бытовая техника,piece,12500,manufacturing,3,2,ordinary
+HOME-018,Двигатель бытовой техники,Бытовая техника,piece,1200,manufacturing,3,2,ordinary
+HOME-019,Барабан стиральной машины,Бытовая техника,piece,18000,manufacturing,3,2,ordinary
+HOME-020,Терморегулятор,Бытовая техника,piece,130,manufacturing,3,2,ordinary
+OTHER-001,"Стеклянная бутылка 0,5 л",Прочие товары,piece,370,manufacturing,2,2,ordinary
+OTHER-002,Стеклянная бутылка 1 л,Прочие товары,piece,590,manufacturing,2,2,ordinary
+OTHER-003,Пластиковая бутылка 1 л,Прочие товары,piece,50,manufacturing,2,2,ordinary
+OTHER-004,Крышка бутылочная,Прочие товары,piece,4,manufacturing,2,2,ordinary
+OTHER-005,Этикетка товарная,Прочие товары,piece,3,manufacturing,2,2,ordinary
+OTHER-006,Картонная коробка,Прочие товары,piece,230,manufacturing,2,2,ordinary
+OTHER-007,Металлическая банка,Прочие товары,piece,90,manufacturing,2,2,ordinary
+OTHER-008,Поддон транспортный,Прочие товары,piece,16000,manufacturing,3,2,ordinary
+OTHER-009,Сталь листовая,Прочие товары,g,1,manufacturing,1,1,ordinary
+OTHER-010,Полимерные гранулы,Прочие товары,g,1,manufacturing,1,1,ordinary
+RAW-001,Железная руда,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-002,Уголь,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-003,Нефть сырая,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-004,Природный газ,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-005,Кварцевый песок,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-006,Песок строительный,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-007,Известняк,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-008,Глина,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-009,Гипс,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-010,Каменная соль,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-011,Древесина круглая,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-012,Хлопок-сырец,Промышленное сырьё,g,1,farm_or_fishery,0,0,ordinary
+RAW-013,"Кожа выделанная, полуфабрикат",Промышленное сырьё,g,1,finite_import,0,0,ordinary
+RAW-014,Каучук натуральный,Промышленное сырьё,g,1,finite_import,0,0,ordinary
+RAW-015,Кремниевое сырьё,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-016,Медная руда,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-017,Бокситы,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-018,Литиевое сырьё,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-019,Никелевая руда,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-020,Металлолом стальной,Промышленное сырьё,g,1,recovery,0,0,ordinary
+RAW-021,Лом алюминиевый,Промышленное сырьё,g,1,recovery,0,0,ordinary
+RAW-022,Стеклобой,Промышленное сырьё,g,1,recovery,0,0,ordinary
+RAW-023,Макулатура,Промышленное сырьё,g,1,recovery,0,0,ordinary
+RAW-024,Пластиковые отходы,Промышленное сырьё,g,1,recovery,0,0,ordinary
+RAW-025,Техническая вода,Промышленное сырьё,g,1,system_utility,0,0,ordinary
+RAW-026,Вода питьевая производственная,Промышленное сырьё,g,1,system_utility,0,0,ordinary
+RAW-027,Сода кальцинированная,Промышленное сырьё,g,1,finite_import,0,0,ordinary
+RAW-028,Хмель,Промышленное сырьё,g,1,farm_or_fishery,0,0,ordinary
+RAW-029,Дрожжи хлебопекарные,Промышленное сырьё,g,1,finite_import,0,0,ordinary
+RAW-030,Дрожжи пивные,Промышленное сырьё,g,1,finite_import,0,0,ordinary
+RAW-031,Молочная закваска,Промышленное сырьё,g,1,finite_import,0,0,ordinary
+RAW-032,Какао-порошок,Промышленное сырьё,g,1,finite_import,0,0,ordinary
+RAW-033,Пищевой сахар-песок,Промышленное сырьё,g,1,finite_import,0,0,ordinary
+RAW-034,Пищевая соль,Промышленное сырьё,g,1,extraction_or_utility,0,0,ordinary
+RAW-035,Растительное масло наливное,Промышленное сырьё,g,1,finite_import,0,0,ordinary
+TEXT-001,Футболка хлопковая,Одежда и обувь,piece,280,manufacturing,4,2,ordinary
+TEXT-002,Рубашка мужская,Одежда и обувь,piece,330,manufacturing,4,2,ordinary
+TEXT-003,Блузка женская,Одежда и обувь,piece,350,manufacturing,4,2,ordinary
+TEXT-004,Джинсы,Одежда и обувь,piece,740,manufacturing,4,2,ordinary
+TEXT-005,Брюки классические,Одежда и обувь,piece,600,manufacturing,4,2,ordinary
+TEXT-006,Куртка демисезонная,Одежда и обувь,piece,1050,manufacturing,4,2,ordinary
+TEXT-007,Куртка зимняя,Одежда и обувь,piece,1450,manufacturing,4,2,ordinary
+TEXT-008,Пальто,Одежда и обувь,piece,1700,manufacturing,4,2,ordinary
+TEXT-009,Платье,Одежда и обувь,piece,480,manufacturing,4,2,ordinary
+TEXT-010,Юбка,Одежда и обувь,piece,480,manufacturing,4,2,ordinary
+TEXT-011,Спортивный костюм,Одежда и обувь,piece,800,manufacturing,4,2,ordinary
+TEXT-012,Носки хлопковые,Одежда и обувь,piece,100,manufacturing,4,2,ordinary
+TEXT-013,Нижнее бельё,Одежда и обувь,piece,160,manufacturing,4,2,ordinary
+TEXT-014,Кроссовки,Одежда и обувь,piece,820,manufacturing,4,2,ordinary
+TEXT-015,Ботинки кожаные,Одежда и обувь,piece,1150,manufacturing,4,2,ordinary
+TEXT-016,Туфли,Одежда и обувь,piece,720,manufacturing,4,2,ordinary
+TEXT-017,Сандалии,Одежда и обувь,piece,630,manufacturing,4,2,ordinary
+TEXT-018,Детская обувь,Одежда и обувь,piece,580,manufacturing,4,2,ordinary
+TEXT-019,Ткань хлопковая,Одежда и обувь,g,1,manufacturing,1,1,ordinary
+TEXT-020,Ткань синтетическая,Одежда и обувь,g,1,manufacturing,2,1,ordinary

@@ -1,0 +1,32 @@
+{
+  "catalog_total": 300,
+  "manufactured_goods": 233,
+  "documented_sourced_goods": 67,
+  "source_modes": {
+    "manufacturing": 233,
+    "finite_import": 13,
+    "farm_or_fishery": 30,
+    "extraction_or_utility": 17,
+    "recovery": 5,
+    "system_utility": 2
+  },
+  "recipes_total": 450,
+  "recipe_outputs": 233,
+  "single_route_goods": 16,
+  "two_route_goods": 217,
+  "enterprise_types": 45,
+  "productive_enterprise_types": 26,
+  "production_line_types": 70,
+  "fixed_recipe_components_exist": true,
+  "recipe_dag_cycle_free": true,
+  "all_manufactured_goods_have_recipe": true,
+  "all_input_units_positive": true,
+  "aggregate_mass_nonnegative": true,
+  "physically_validated": false,
+  "mass_balance_limitations": "Approximate lumped mass; chemical reactions, humidity, volatile releases and material grades require independent expert review.",
+  "brand_separation": "brands are not SKU or BOM inputs; recorded on produced batch/retail offers.",
+  "regulation": "beer aged-gated sales, compliance licensing and excise to be modeled separately",
+  "revision_count": 5,
+  "design_only": true,
+  "ready_for_production_runtime": false
+}

@@ -1,0 +1,248 @@
+{
+  "version": "M3-preproduction-offline",
+  "seed": 42,
+  "cities": 10,
+  "ai_agents": 100,
+  "days": 30,
+  "daily": [
+    {
+      "day": 0,
+      "decisions": 100,
+      "traded_qty": 11218,
+      "money_supply": 500000000,
+      "open_orders": 69
+    },
+    {
+      "day": 1,
+      "decisions": 100,
+      "traded_qty": 10888,
+      "money_supply": 500000000,
+      "open_orders": 88
+    },
+    {
+      "day": 2,
+      "decisions": 100,
+      "traded_qty": 10896,
+      "money_supply": 500000000,
+      "open_orders": 66
+    },
+    {
+      "day": 3,
+      "decisions": 100,
+      "traded_qty": 9593,
+      "money_supply": 500000000,
+      "open_orders": 59
+    },
+    {
+      "day": 4,
+      "decisions": 100,
+      "traded_qty": 9598,
+      "money_supply": 500000000,
+      "open_orders": 53
+    },
+    {
+      "day": 5,
+      "decisions": 100,
+      "traded_qty": 10895,
+      "money_supply": 500000000,
+      "open_orders": 59
+    },
+    {
+      "day": 6,
+      "decisions": 100,
+      "traded_qty": 10897,
+      "money_supply": 500000000,
+      "open_orders": 58
+    },
+    {
+      "day": 7,
+      "decisions": 100,
+      "traded_qty": 10894,
+      "money_supply": 500000000,
+      "open_orders": 59
+    },
+    {
+      "day": 8,
+      "decisions": 100,
+      "traded_qty": 8295,
+      "money_supply": 500000000,
+      "open_orders": 55
+    },
+    {
+      "day": 9,
+      "decisions": 100,
+      "traded_qty": 10898,
+      "money_supply": 500000000,
+      "open_orders": 55
+    },
+    {
+      "day": 10,
+      "decisions": 100,
+      "traded_qty": 10895,
+      "money_supply": 500000000,
+      "open_orders": 61
+    },
+    {
+      "day": 11,
+      "decisions": 100,
+      "traded_qty": 10895,
+      "money_supply": 500000000,
+      "open_orders": 60
+    },
+    {
+      "day": 12,
+      "decisions": 100,
+      "traded_qty": 9596,
+      "money_supply": 500000000,
+      "open_orders": 55
+    },
+    {
+      "day": 13,
+      "decisions": 100,
+      "traded_qty": 10898,
+      "money_supply": 500000000,
+      "open_orders": 54
+    },
+    {
+      "day": 14,
+      "decisions": 100,
+      "traded_qty": 10896,
+      "money_supply": 500000000,
+      "open_orders": 58
+    },
+    {
+      "day": 15,
+      "decisions": 100,
+      "traded_qty": 10896,
+      "money_supply": 500000000,
+      "open_orders": 58
+    },
+    {
+      "day": 16,
+      "decisions": 100,
+      "traded_qty": 9596,
+      "money_supply": 500000000,
+      "open_orders": 56
+    },
+    {
+      "day": 17,
+      "decisions": 100,
+      "traded_qty": 10897,
+      "money_supply": 500000000,
+      "open_orders": 57
+    },
+    {
+      "day": 18,
+      "decisions": 100,
+      "traded_qty": 10895,
+      "money_supply": 500000000,
+      "open_orders": 60
+    },
+    {
+      "day": 19,
+      "decisions": 100,
+      "traded_qty": 10896,
+      "money_supply": 500000000,
+      "open_orders": 57
+    },
+    {
+      "day": 20,
+      "decisions": 100,
+      "traded_qty": 9597,
+      "money_supply": 500000000,
+      "open_orders": 53
+    },
+    {
+      "day": 21,
+      "decisions": 100,
+      "traded_qty": 10897,
+      "money_supply": 500000000,
+      "open_orders": 56
+    },
+    {
+      "day": 22,
+      "decisions": 100,
+      "traded_qty": 10896,
+      "money_supply": 500000000,
+      "open_orders": 59
+    },
+    {
+      "day": 23,
+      "decisions": 100,
+      "traded_qty": 10896,
+      "money_supply": 500000000,
+      "open_orders": 58
+    },
+    {
+      "day": 24,
+      "decisions": 100,
+      "traded_qty": 9596,
+      "money_supply": 500000000,
+      "open_orders": 56
+    },
+    {
+      "day": 25,
+      "decisions": 100,
+      "traded_qty": 10896,
+      "money_supply": 500000000,
+      "open_orders": 58
+    },
+    {
+      "day": 26,
+      "decisions": 100,
+      "traded_qty": 10896,
+      "money_supply": 500000000,
+      "open_orders": 58
+    },
+    {
+      "day": 27,
+      "decisions": 100,
+      "traded_qty": 10897,
+      "money_supply": 500000000,
+      "open_orders": 55
+    },
+    {
+      "day": 28,
+      "decisions": 100,
+      "traded_qty": 9596,
+      "money_supply": 500000000,
+      "open_orders": 55
+    },
+    {
+      "day": 29,
+      "decisions": 100,
+      "traded_qty": 10897,
+      "money_supply": 500000000,
+      "open_orders": 57
+    }
+  ],
+  "limitations": [
+    "starter milling facilities are given as initial endowment",
+    "no population budget distributions",
+    "no market-making money issuance",
+    "prices are illustrative",
+    "system test market makers trade for liquidity"
+  ],
+  "produced_batches": 252,
+  "household_purchases": 235,
+  "ai_roles": {
+    "producer": 33,
+    "retailer": 33,
+    "trader": 34
+  },
+  "produced_reference_goods": [
+    "FOOD-035",
+    "FOOD-039"
+  ],
+  "wages_paid_kopecks": 510300,
+  "household_spending_kopecks": 7764218,
+  "open_orders_end": 57,
+  "traded_quantity": 315496,
+  "money_supply_initial": 500000000,
+  "money_supply_final": 500000000,
+  "money_conserved": true,
+  "trade_events": 709,
+  "ai_decisions": 3000,
+  "final_cash_min": 24948,
+  "status": "PASS: deterministic bounded offline integration smoke"
+}

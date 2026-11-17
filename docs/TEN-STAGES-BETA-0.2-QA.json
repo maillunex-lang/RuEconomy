@@ -1,0 +1,28 @@
+{
+  "project": "RussiaEconomicMMO",
+  "version": "0.2.0-beta",
+  "date_utc": "2026-11-17T12:47:37.838229+00:00",
+  "stages": 10,
+  "unit_tests_passed": 53,
+  "black_box_http_smoke": "PASS",
+  "godot_4_7_2_build": "PASS",
+  "apk_signature": "PASS",
+  "apk_sha256": "5312d28a7479ac1ddd83804b022aa1a68af4965c5d9776c9faf607ebde6656d7",
+  "apk_bytes": 28455682,
+  "apk_url": "https://rikagro.ru/russia-mmo/android-0.2.apk",
+  "live_runtime": {
+    "players": 0,
+    "ai_companies": 100,
+    "game_day": 0,
+    "world_enabled": 1
+  },
+  "server_health": "PASS",
+  "catalog_ids_sha256": {
+    "PRODUCTION-CATALOG-1.0-GOODS.json": "f3e416c18349a96a95623cbeb32598c3b78c263f9cb806759dd7428bffd89150",
+    "PRODUCTION-CATALOG-1.0-RECIPES.json": "8f5d38201625f02bcb5956782fb7ce63f6b3840aff116b70df36c83dff8c850b",
+    "PRODUCTION-CATALOG-1.0-EQUIPMENT.json": "fac997010c3e1265e85bba5a51f9261655270d5b826e7bfd56c104d0e3ea01ac"
+  },
+  "stage_status": "BETA_MECHANICS_SUBSET",
+  "real_android_device_tested": false,
+  "full_game_complete": false
+}

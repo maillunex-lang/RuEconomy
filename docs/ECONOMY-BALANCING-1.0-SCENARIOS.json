@@ -1,0 +1,139 @@
+{
+  "schema": "russia.economy-balancing.v1",
+  "status": "hypothetical scenario, not calibrated",
+  "currency": "RUB",
+  "smallest_unit": "kopeck",
+  "real_days_per_game_year": 7,
+  "game_days_per_year": 365,
+  "real_seconds_per_game_day": 1656.986301369863,
+  "city_count_mvp": 10,
+  "ai_company_test_count": 100,
+  "scenarios": {
+    "baseline": {
+      "source_bps": 10000,
+      "electricity_kop_kwh": 900,
+      "labor_kop_min": 45,
+      "water_kop_kg": 3,
+      "wear_bps": 400,
+      "logistics_bps": 300,
+      "overhead_bps": 500,
+      "margin_bps": 1800
+    },
+    "supply_shock": {
+      "source_bps": 14000,
+      "electricity_kop_kwh": 1300,
+      "labor_kop_min": 50,
+      "water_kop_kg": 4,
+      "wear_bps": 550,
+      "logistics_bps": 800,
+      "overhead_bps": 650,
+      "margin_bps": 1500
+    },
+    "productivity": {
+      "source_bps": 10000,
+      "electricity_kop_kwh": 850,
+      "labor_kop_min": 35,
+      "water_kop_kg": 3,
+      "wear_bps": 300,
+      "logistics_bps": 250,
+      "overhead_bps": 400,
+      "margin_bps": 1700
+    }
+  },
+  "samples": [
+    {
+      "goods_id": "FOOD-001",
+      "name": "Молоко пастеризованное 1 л",
+      "baseline_rub": 240.48,
+      "supply_shock_rub": 363.03,
+      "productivity_rub": 230.24
+    },
+    {
+      "goods_id": "FOOD-019",
+      "name": "Хлеб пшеничный",
+      "baseline_rub": 158.23,
+      "supply_shock_rub": 249.68,
+      "productivity_rub": 146.7
+    },
+    {
+      "goods_id": "FOOD-058",
+      "name": "Рыбные консервы в масле",
+      "baseline_rub": 168.16,
+      "supply_shock_rub": 244.95,
+      "productivity_rub": 150.19
+    },
+    {
+      "goods_id": "FOOD-083",
+      "name": "Пиво светлое 0,5 л",
+      "baseline_rub": 229.68,
+      "supply_shock_rub": 328.45,
+      "productivity_rub": 202.95
+    },
+    {
+      "goods_id": "ELEC-001",
+      "name": "Смартфон бюджетный",
+      "baseline_rub": 731.2,
+      "supply_shock_rub": 919.26,
+      "productivity_rub": 561.32
+    },
+    {
+      "goods_id": "ELEC-002",
+      "name": "Смартфон средний",
+      "baseline_rub": 740.42,
+      "supply_shock_rub": 933.07,
+      "productivity_rub": 569.86
+    },
+    {
+      "goods_id": "ELEC-011",
+      "name": "Телевизор 32 дюйма",
+      "baseline_rub": 4152.74,
+      "supply_shock_rub": 5803.11,
+      "productivity_rub": 3490.55
+    },
+    {
+      "goods_id": "HOME-001",
+      "name": "Холодильник компактный",
+      "baseline_rub": 23603.01,
+      "supply_shock_rub": 34898.19,
+      "productivity_rub": 20820.0
+    },
+    {
+      "goods_id": "AUTO-001",
+      "name": "Седан бюджетный",
+      "baseline_rub": 454974.32,
+      "supply_shock_rub": 735152.91,
+      "productivity_rub": 404575.83
+    },
+    {
+      "goods_id": "AUTO-013",
+      "name": "Трактор сельскохозяйственный",
+      "baseline_rub": 1370185.41,
+      "supply_shock_rub": 2221109.37,
+      "productivity_rub": 1252264.58
+    },
+    {
+      "goods_id": "BOOK-001",
+      "name": "Книга художественная мягкая",
+      "baseline_rub": 164.87,
+      "supply_shock_rub": 232.57,
+      "productivity_rub": 141.98
+    },
+    {
+      "goods_id": "BUILD-006",
+      "name": "Стекло листовое",
+      "baseline_rub": 0.24,
+      "supply_shock_rub": 0.33,
+      "productivity_rub": 0.22
+    }
+  ],
+  "rules": {
+    "production": "atomic stock reservation and expense accounting; no money minting",
+    "sales": "inventory and cash exchange atomically; buyer budget bounded",
+    "demand": "budget, price, availability, quality, brand, proximity, substitutions",
+    "import": "finite quota, delivery delay and variable price",
+    "taxes": "configurable VAT, profit, payroll and excise; not hardcoded",
+    "credit": "explicit bank-ledger entries; debt, interest, defaults and capital constraints",
+    "labor": "finite workers and wages; city unemployment and migration",
+    "competition": "AI and human firms share exact same rules"
+  }
+}
